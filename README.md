@@ -1,8 +1,6 @@
 🎓 Welcome to My Practice Repository for the Master's in Programming Assisted by AI at DevF
 This repository contains examples and exercises for the master's in programming assisted by artificial intelligence at DevF. It demonstrates basic HTML examples including images, semantic tags, links, and more, helping to solidify web development fundamentals.
 
-
-🚀 Features
 🔤 HTML Tags
 Examples of basic tags like <h1>, <p>, and <a> to structure web pages effectively.
 
