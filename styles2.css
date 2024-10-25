@@ -1,0 +1,38 @@
+div p {
+    color: blue; /* Estilo para los párrafos dentro del div */
+}
+
+body > p {
+    color: red; /* Estilo para el párrafo fuera del div */
+}
+
+
+.boton {
+    background-color: green;  /* Fondo verde */
+    color: yellow;  /* Texto amarillo */
+    font-weight: bold;  /* Negritas */
+    border-radius: 10px;  /* Bordes redondeados */
+    padding: 10px 20px;  /* Relleno dentro del botón */
+    border: none;  /* Sin borde */
+    cursor: pointer;  /* Cambia el cursor a pointer */
+}
+
+.boton:hover {
+    background-color: black;  /* Fondo negro al pasar el cursor */
+    color: green;  /* Texto verde al pasar el cursor */
+}
+
+/* 
+.entrada_de_texto {
+    border: 3px solid black;  
+    padding: 5px; 
+}
+ */
+
+
+.entrada_de_texto:hover {
+    border-color: red;  /* Cambia a borde rojo al pasar el cursor */
+}
+.entrada_de_texto:focus {
+    border-color: rgb(122, 231, 235);  /* Cambia a borde rojo al pasar el cursor */
+}

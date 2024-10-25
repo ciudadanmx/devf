@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Especificidad en CSS</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div>
-        <p>Párrafo 1</p>
-        <p>Párrafo 2</p>
+    <div id="container">
+        <h1 class="title">Título Principal</h1>
+        <p class="text">Este es un párrafo de ejemplo.</p>
+        <p class="text highlight">Este es otro párrafo destacado.</p>
+        <a href="#" class="link">Este es un enlace</a>
+        <button class="btn">Botón</button>
+        <button class="btn btn-primary" style="color: white; background-color: red;">Botón
+            Primario</button>
+            
     </div>
-    <p>Párrafo 3</p>
-    <br>
-    <button class="boton">Botón </button>
-
-    <input type="text" class="entrada_de_texto">
-    
 </body>
 </html>
