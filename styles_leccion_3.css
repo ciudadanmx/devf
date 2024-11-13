@@ -71,3 +71,19 @@ div>p:last-of-type{
 p:first-of-type{
     background-color: #e65959;
 }
+
+p {
+    position: relative;
+    z-index: -2;
+}
+
+.caja{
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    z-index: -1;
+    background-color: #a80fa8;
+}
