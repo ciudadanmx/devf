@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Rubik Wet Paint";
+    src: url("/assets/fonts/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf");
+}
+
 p {
     color: blue;
 }
@@ -33,3 +38,20 @@ button[class~="btn-primary"] {
     color: brown;
 }
  */
+
+
+/* 
+ .rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", Arial;
+  }
+ body {
+    font-family: "Rubik Wet Paint", Arial;
+  } */
+
+  .rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
