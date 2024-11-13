@@ -74,7 +74,7 @@
   
     .main-content {
   
-      flex: 2;
+      flex: 1; /*se cambió a 1 y se hizo más delgado el main-content*/
   
       order: 2;
   
@@ -82,7 +82,7 @@
   
     .sidebar {
   
-      flex: 1;
+      flex: 2; /*se cambió a 2 y se hizo más gruesa la barra lateral*/
   
       order: 1;
   
