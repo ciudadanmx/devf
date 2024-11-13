@@ -37,7 +37,7 @@ ul>li:last-child{
 
 ul>li:nth-child(odd){
     background-color: rgb(219, 74, 146);
-}
+} 
 
 ul>li:hover{
     background-color: aqua;
