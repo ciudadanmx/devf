@@ -1,6 +1,6 @@
-* {
+* { /* reset inicial */
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  /* los anchos ya incluyan padding y border */
 }
 
 h1 {
@@ -14,7 +14,7 @@ main{
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;  /* para centrar en el eje cruzado osea el horizontal */
     background-color: #333;
     color: rgb(219, 219, 219);
     padding: 25px 0;
@@ -30,7 +30,7 @@ footer {
 .nav-list {
     display: flex;
     margin: 0 15px;
-    list-style: none;
+    list-style: none; /*para que no muestre ninguna viñeta */
 }
 
 
@@ -45,12 +45,13 @@ footer {
 
 .main-section-footer {
     display: flex;
+    /* flex-direction: row , que es la que viene por defecto */
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /* para que se distribuyan los elementos en el eje horizontal */
 }
 
 .footer-section {
-    text-align: center;
+    text-align: center; /* para que se alinee al centro internamente */
 }
 
 .footer-section ul {
@@ -85,27 +86,35 @@ footer {
     border-top: 1px solid white;
 }
 
+.copy-right a{
+    color: rgb(142, 233, 233);
+}
+
+.copy-right a:hover {
+    color: greenyellow;
+}
+
 .burger-icon {
-    display: none;
+    display: none; /* oculta el botón de hamburguesa para solo mostrarlo en tabletas o móviles */
     width: 32px;
     height: 32px;
     background-image: url("https://img.icons8.com/?size=100&id=36389&format=png&color=ffffff");
     background-size: cover;
 }
 
-@media (width <=820px) {
+@media (width <=820px) { /*lo mismo que min-width: 820px */
     .burger-icon {
-        display: inline-block;
+        display: inline-block; /* en tabletas muestra el botón de hamburguesa */
     }
 
     .nav-list li {
-        display: none;
+        display: none;   /* oculta el menu */
     }
 }
 
 
 /* Media queries para footer */
-@media (width <=600px) {
+@media (width <=600px) { /*lo mismo que max-width: 600px */
     .main-section-footer {
         flex-direction: column;
         align-items: center;

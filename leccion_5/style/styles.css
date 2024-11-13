@@ -7,7 +7,7 @@
 }
 
 .box1{
-    position: fixed;
+    position: fixed; /*éste no se mueve para nada */
     top: 0;
     right: 0;
     background-color: #ff6347;
@@ -21,7 +21,7 @@
     height: 1200px;
     width: 600px;
     left: 300px;
-    top: 20px;
+    top: 20px; /*pueden ser unidades negativas y se movería hacia arriba */
     /* bottom: 50px; */
     border: 2px solid black;
 }
@@ -30,15 +30,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* para centrar, se calcula con respecto a sí mismo */
     background-color: #4682B4;
 }
 
 .box3{
-    /* position: sticky;
-    top: 100px; */
+     position: sticky;
+    top: 100px; 
+   
     background-color: #818181;
-    align-self: baseline;
+   align-self: baseline; 
 }
 
 .box4{
