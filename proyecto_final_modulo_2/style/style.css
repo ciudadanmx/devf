@@ -292,6 +292,10 @@ footer {
     .logo {
         flex-direction: column;
     }
+
+    .login-btn {
+        display: none;
+    }
     
 }
 
