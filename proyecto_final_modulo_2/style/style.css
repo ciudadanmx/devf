@@ -194,10 +194,16 @@ section button:hover {
     background-color: #f8f9fa;
 }
 
-section h3 {
+section h3, h4 {
     text-align: center;
     letter-spacing: 0.7rem;
     font-size: 2rem;
+}
+
+section h4 {
+
+    letter-spacing: 0.6rem;
+    color: #2c8d2f;
 }
 
 .cv-item {
