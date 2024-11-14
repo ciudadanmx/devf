@@ -193,6 +193,7 @@ section button:hover {
     padding: 2rem;
     background-color: #f8f9fa;
     justify-content: center;
+    text-align: center;
 }
 
 section h3, h4 {
