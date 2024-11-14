@@ -308,6 +308,10 @@ footer {
     .nav-links {
         display: none;
     }
+
+    .login-btn {
+        display: none;
+    }
 }
 
 
