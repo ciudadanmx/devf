@@ -89,16 +89,18 @@ aside p{
 .nav-links li a {
     color: white;
     text-decoration: none;
-    /* Elimina el subrayado en los enlaces */
-    font-weight: bold;    
-    /* Suaviza el cambio de color al pasar el mouse */
+    font-weight: 900;
+    font-size: 0.9rem; 
     padding-left: 25px;
     padding-right: 25px;
     letter-spacing: 3px;
     transition: color 0.3s, transform 0.3s;
     list-style: none !important;
-    
+    white-space: nowrap; /* Evita que el texto se desborde a una segunda línea */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es muy largo */
 }
+
 
 .nav-links li:hover {
 
@@ -220,7 +222,7 @@ section h4 {
 
 
 
-/* Llamado a la Acción (CTA) */
+/* Call To Action (CTA) */
 .cta {
     text-align: center;
     padding: 2rem;
